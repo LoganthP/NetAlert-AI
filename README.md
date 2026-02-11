@@ -1,13 +1,8 @@
 # 🚨 NetAlert-AI Dashboard
 
-<div align="center">
-  <img src="public/icon.png" width="85" />
-</div>
-
 <h3 align="center">
   <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
   <img src="https://img.shields.io/badge/Vite-4.0-purple?style=for-the-badge&logo=vite" />
-  <img src="https://img.shields.io/badge/Tailwind-CSS-3.4-sky?style=for-the-badge&logo=tailwindcss" />
   <img src="https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript" />
 </h3>
 
