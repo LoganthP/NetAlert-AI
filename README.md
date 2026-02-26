@@ -96,21 +96,38 @@ It connects to the NetAlert AI backend to display:
 
 ## 🏗 System Architecture
 
-```text
-Client (React + Vite)
-        │
-        ▼
-Dashboard UI Components
-        │
-        ▼
-Context & Hooks Layer
-(Auth • Theme • Dashboard Data)
-        │
-        ▼
-Backend API (Express)
-        │
-        ▼
-NetAlert AI Engine
+```mermaid
+flowchart TD
+    A[User Opens NetAlert AI Dashboard] --> B[Frontend Cyber Interface]
+    
+    B --> C[Data Input Layer]
+    C --> D[Network Logs and System Data]
+    
+    D --> E[Backend Server]
+    E --> F[Data Preprocessing Module]
+    
+    F --> G[AI Analysis Engine]
+    
+    G --> H[Anomaly Detection Module]
+    G --> I[Threat Pattern Recognition]
+    G --> J[Behavior Analysis Module]
+    
+    H --> K[Risk Evaluation Engine]
+    I --> K
+    J --> K
+    
+    K --> L[Threat Classification Layer]
+    
+    L --> M[Database Storage]
+    M --> N[Alert and Log Records]
+    
+    L --> O[Alert Generation System]
+    O --> P[Real Time Notifications]
+    
+    P --> Q[Frontend Visualization Layer]
+    Q --> R[Threat Dashboard Panels]
+    Q --> S[Charts and Risk Indicators]
+    Q --> T[Live Alert Monitoring]
 ```
 
 ---
